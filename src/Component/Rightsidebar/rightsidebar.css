@@ -1,0 +1,30 @@
+.Rightsidebar {
+  flex: 3;
+}
+.rightbar_news {
+  font-weight: 600;
+}
+li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+li:hover {
+color: gray;
+}
+ul,li,a,span,small{
+   background-color: white;
+}
+.premium_img_key{
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 50px;
+  
+}
+.btn{
+border-radius: 20px;
+border: 1px solid blue;
+margin: 10px;
+
+}

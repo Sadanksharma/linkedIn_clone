@@ -1,0 +1,65 @@
+.Leftsidebar{
+   flex: 3; 
+}
+.card{
+   border-radius: 13px;
+   object-fit: contain;
+   overflow: hidden;
+  
+}
+.leftsidebar_profile,.sidebar_profilpic,
+img,span,p{
+   background-color: white;
+}
+.leftsidebar_tools,.tools_list,
+a,span,small{
+   background-color: white;
+}
+.leftsidebardown_list,span,ul,li,a,small{
+   background-color: white;
+}
+.leftsidebar_profile img{
+   height: 100px;
+   width: 100%;
+}
+.sidebar_profilpic img{
+   height: 80px;
+   width: 80px;
+   border-radius: 100px;
+   align-items: center;
+   justify-items: center;
+   margin-left: 85px;
+   margin-top: -40px;
+}
+.sidebar_profilpic span{
+   font-weight: 600;
+  
+   margin-left: 90px;
+}
+.sidebar_profilpic p{
+   font-weight: 300;
+   font-size: small;
+}
+.tools_list a {
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+}
+.tools_list a span{
+   font-weight: 600;
+   cursor: pointer;
+}
+.tools_list a small{
+   font-size: small;
+}
+.tools_list a{
+list-style-type: none;
+text-decoration: none;
+}
+.leftsidebardown_list span a,
+.leftsidebardown_list  ul li a{
+   list-style-type: none;
+   text-decoration: none;
+   
+   color: black;
+}

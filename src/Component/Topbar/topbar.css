@@ -1,0 +1,79 @@
+.conatainer-fluid {
+  background-color: white;
+}
+
+.Topbarnav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+.Topbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.topbar_logo {
+  height: 30px;
+  width: 30px;
+}
+
+
+.topbar_serach {
+  height: 15px;
+   margin-left: 20px;
+}
+.topbar_input {
+  outline: none;
+  border: none;
+  height: 30px;
+  border-radius: 2px;
+  background-color: #edf3f8;
+}
+.topbar_menu {
+  display: flex;
+  margin-inline-start: auto;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: white;
+}
+.topbar_menulist {
+  background-color: white;
+}
+.topbar_menulist img {
+  height: 25px;
+  width: 25px;
+  margin-left: 50px;
+  background-color: white;
+}
+.topbar_menulist small {
+  margin-left: 40px;
+  font-size: small;
+  background-color: white;
+}
+.topbarsidemenu {
+  display: flex;
+  margin-inline-end: auto;
+  cursor: pointer;
+  background-color: white;
+}
+.topbarsidemenu {
+  background-color: white;
+}
+.topbarsidemenu img {
+  height: 25px;
+  width: 25px;
+  gap: 30px;
+  margin-left: 50px;
+  background-color: white;
+}
+.topbarsidemenulist,
+.topbarsidemenulist small {
+  background-color: white;
+}

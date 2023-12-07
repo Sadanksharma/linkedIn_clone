@@ -1,0 +1,148 @@
+.Feedcontent {
+  flex: 6;
+}
+.Feedcontent_profile {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: white;
+}
+.Feedcontent_profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.Feedcontent_profile form{
+    background-color: white;
+}
+.Feedcontent_profile form input {
+  height: 50px;
+  width: 400px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 30px;
+  outline: none;
+  margin-left: 10px;
+  border: 1px solid;
+  font-size: small;
+}
+.Feedcontent_btn{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.media img{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.media img:hover{
+    background-color: gray;
+}
+.Feedcontent_btn button:hover{
+background-color: gray;
+overflow: hidden;
+}
+.feedcontent_post_profile{
+    background-color: white;
+}
+.feedcontent_post_profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.feedcontent_post_profile{
+    background-color: white;
+    display: flex;
+}
+.post_profile{
+    background-color: white;
+}
+.post_profile span{
+    margin: 10px;
+    font-size: 14px;
+    
+}
+.post_profile small{
+    font-size: 10px;
+
+}
+.feedcontent_post_menu{
+    background-color: white;
+}
+.feedcontent_post_menu img{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.feedcontent_post_menu img:hover{
+    background-color:lightgray;
+    border-radius: 100%;
+}
+.feeds_post{
+    background-color: white;
+    align-items: center;
+
+}
+.feeds_post_profile span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.feeds_post_profile{
+    background-color: white;
+}
+.feeds_post_profile img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: white;
+}
+.feeds_follow{
+    background-color: white;
+}
+.feeds_follow button{
+    border: 0px solid;
+    margin-left: 30px;
+    background-color: white;
+}
+.feeds_follow button:hover{
+    color: primery;
+    background-color: lightgray;
+    border-radius: 10px;
+   
+}
+.feed_content{
+    background-color: white;
+}
+.feed_content img{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.feed_commbtn{
+    background-color: white;
+    
+}
+
+.like_btn{
+    border: 0px solid;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+   
+
+}
+.like_btn img{
+    height: 20px;
+    width: 20px;
+    background-color: #f4f2ee;
+}
